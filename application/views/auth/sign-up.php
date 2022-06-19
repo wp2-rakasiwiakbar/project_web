@@ -24,8 +24,8 @@
         <div class="container-tight py-6">
             <div class="text-center mb-4">
                 <!-- <a href="."><img src="<?= base_url(); ?>assets/static/logo.svg" height="36" alt=""></a> -->
-                <h1>Simple CMS</h1>
-                <small class="text-muted">by <strong>Alam Koding</strong></small>
+                <h1>Wood Press</h1>
+                <small class="text-muted">by <strong>Kelompk 5</strong></small>
             </div>
             <?= form_open('', ['class' => 'card card-md', 'autocomplete' => 'off']); ?>
             <div class="card-body">
