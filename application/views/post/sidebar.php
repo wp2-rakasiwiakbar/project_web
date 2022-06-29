@@ -17,7 +17,7 @@
             <a href="<?= base_url('post/view/') . $rp->post_slug; ?>" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="media">
                     <div class="media-body">
-                        <h3 class="mt-0 mb-1"><?= $rp->post_title; ?></h3>
+                        <h3 class="mt-0 mb-1"><?= substr($rp->post_title,0,50) ?>...</h3><h3 class="text-primary"> More Infomation </h3>
                         <span class="small text-secondary">
                             <svg style="height: 16px" xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />

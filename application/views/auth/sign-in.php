@@ -24,8 +24,7 @@
         <div class="container-tight py-6">
             <div class="text-center mb-4">
                 <!-- <a href="."><img src="<?= base_url(); ?>assets/static/logo.svg" height="36" alt=""></a> -->
-                <h1>Wood press</h1>
-                <small class="text-muted">by <strong>kelompok 5</strong></small>
+                <a href="<?= base_url('')?>" class="h1"><b>Berita </b> <b>Merdeka</b></a>
             </div>
             <?= form_open('', ['class' => 'card card-md', 'autocomplete' => 'off']); ?>
             <div class="card-body">

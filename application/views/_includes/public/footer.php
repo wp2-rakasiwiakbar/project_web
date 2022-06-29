@@ -4,16 +4,13 @@
         <div class="row text-center align-items-center flex-row-reverse">
             <div class="col-lg-auto ml-lg-auto">
                 <ul class="list-inline list-inline-dots mb-0">
-                    <li class="list-inline-item"><a href="" target="_blank" class="link-secondary">Kelompok 5</a></li>
+                    <li class="list-inline-item"><a href="" target="_blank" class="link-secondary">Anythink to Write</a></li>
                 </ul>
             </div>
             <div class="col-12 col-lg-auto mt-3 mt-lg-0">
                 <ul class="list-inline list-inline-dots mb-0">
                     <li class="list-inline-item">
-                    Copyright &copy; <?= date('Y') ?> <a href=""></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="./changelog.html" class="link-secondary" rel="noopener">Wood Press</a>
+                    Copyright &copy; <?= date('Y') ?> Berita Merdeka.All rights reserved. <a href=""></a>
                     </li>
                 </ul>
             </div>

@@ -21,10 +21,10 @@
 <!-- Main Footer -->
 <footer class="main-footer">
     <!-- To the right -->
-    <strong>Wood Press</strong>
+    <strong></strong>
     <!-- Default to the left -->
     <div class="float-right d-none d-sm-inline">
-        Copyright &copy; <?= date('Y') ?> <a href="https://adminlte.io">AdminLTE.io</a>.All rights reserved.
+        Copyright &copy; <?= date('Y') ?> Berita Merdeka.All rights reserved.
     </div>
 </footer>
 </div>

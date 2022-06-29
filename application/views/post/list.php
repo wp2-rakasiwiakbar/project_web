@@ -30,7 +30,7 @@
         <div class="col-6 col-lg-4">
             <div class="card card-sm h-100">
                 <a href="<?= base_url('post/view/') . $post->post_slug; ?>" class="d-block">
-                    <img src="<?= base_url('assets/dist/img/posts/') . $thumbnail  ?>" class="card-img-top">
+                    <img src="<?= base_url('assets/dist/img/posts/') . $thumbnail  ?>"class="card-img-top">
                 </a>
                 <div class="card-body">
                     <span class="badge bg-blue-lt mb-1">
@@ -42,7 +42,7 @@
                         <?= $post->category_name; ?>
                     </span>
                     <a href="<?= base_url('post/view/') . $post->post_slug; ?>" class="text-decoration-none text-dark">
-                        <h3 class="card-title font-weight-bold mb-0"><?= $post->post_title; ?></h3>
+                        <h3 class="card-title font-weight-bold mb-0"> <?= substr ($post->post_title,0,70) ?> ...</h3> <h3 class="text-primary"> More Infomation </h3>
                     </a>
                 </div>
                 <div class="card-footer bg-white">

@@ -83,7 +83,7 @@
             <!-- Brand Logo -->
             <a href="<?= base_url('dashboard') ?>" class="brand-link navbar-dark">
                 <img src="<?= base_url(); ?>assets/dist/img/AdminLTELogo.png" alt="Logo" class="brand-image img-circle">
-                <span class="brand-text text-white">CMS Simple</span>
+                <span class="brand-text text-white">Berita Merdeka</span>
             </a>
 
             <!-- Sidebar -->
